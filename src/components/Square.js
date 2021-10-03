@@ -2,6 +2,6 @@ import React from 'react'
 
 export const Square = ({ value }) => {
   return (
-    <button type="button"> {value} </button>
+    <button className="square" type="button"> {value} </button>
   )
 }
